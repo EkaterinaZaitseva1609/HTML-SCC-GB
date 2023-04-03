@@ -1,0 +1,99 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F0F0F0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1B1B1B;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+.header {
+    background: #1B1B1B;
+}
+
+.header_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #F0F0F0;
+}
+
+.main_title {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 215px;
+    line-height: 260px;
+    color: #1B1B1B;
+}
+
+.second_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+.about_me {
+    background: #ABC3C7;
+
+}
+
+.about_text {
+    width: 471px;
+}
+.text_project {
+    text-align: center;
+}
+
+.info {
+    background: #ABC3C7;
+}
+
+.skills_text {
+    width: 421px;
+}
+
+.info_icons {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #1B1B1B;
+}
+
+.text_thanks {
+    text-align: center;
+}
+
+.my_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-align: center;
+    color: #1B1B1B;
+}
+
+.footer {
+    background: #1B1B1B;
+}
