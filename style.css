@@ -94,8 +94,8 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
 
 }
 
@@ -105,7 +105,7 @@ a {
 }
 
 .about_text {
-    width: 471px;
+    width: 430px;
     padding-top: 16px;
 }
 
@@ -138,15 +138,12 @@ a {
     gap: 40px;
 }
 
-
-
 .info_skills {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-
 }
 
 .skills_text {
@@ -180,7 +177,7 @@ a {
     border: 2px solid #1B1B1B;
     border-radius: 18px;
     padding: 36px 25px;
-    margin-right: 24px;
+    margin-right: 16px;
 }
 
 .contacts {
@@ -212,6 +209,10 @@ a {
     color: #1B1B1B;
 }
 
+.behance {
+    color: blue;
+}
+
 .footer {
     background: #1B1B1B;
     padding-top: 20px;
@@ -222,17 +223,20 @@ a {
     gap: 70px;
 }
 
+.carousel-indicators [data-bs-target] {
+    background-color: #373b3e;
+}
+
 /* Планшет */
 @media screen and (max-width: 1024px) {
     .center {
-        padding-left: calc(50% - 426px);
-        padding-right: calc(50% - 426px);
+        padding-left: calc(50% - 325px);
+        padding-right: calc(50% - 325px);
     }
 
     .main_title {
         font-size: 160px;
         line-height: 194px;
-
     }
 
     .top {
@@ -243,7 +247,7 @@ a {
 
     .about_me {
         align-items: center;
-        gap: 10px;
+        gap: 30px;
 
     }
 
@@ -252,9 +256,29 @@ a {
         padding-bottom: 66px;
     }
 
+    .about_text {
+        width: 330px;
+        padding-top: 16px;
+    }
+
     .photo {
         width: 259px;
         height: 259px
+    }
+
+    .project {
+        padding-top: 32px;
+        padding-bottom: 52px;
+    }
+
+    .text_project {
+        padding-bottom: 16px;
+    }
+
+    .info_center {
+        padding-left: calc(50% - 325px);
+        padding-right: calc(50% - 325px);
+
     }
 
     .info {
@@ -267,18 +291,150 @@ a {
         padding-top: 16px;
     }
 
+    .info_icons {
+        margin-top: 16px;
+        justify-content: flex-start;
+    }
+
+    .sticker {
+        margin-right: 4px;
+    }
+
     .info_ed {
         order: 2;
         padding-top: 10px;
     }
 
-    .info_icons {
-        margin-top: 16px;
-    }
-
     .contacts {
         padding-top: 32px;
         padding-bottom: 32px;
+    }
+}
+
+/* Мобильная версия */
+@media screen and (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    body {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header_link {
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+
+    .top {
+        align-content: center;
+    }
+
+    .main_title {
+        font-size: 64px;
+        line-height: 77px;
+
+    }
+
+    .second_title {
+        font-size: 26px;
+        line-height: 31px;
+
+    }
+
+    .heading {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .photo {
+        width: 130px;
+        height: 130px
+    }
+
+    .about_me {
+        gap: 4px;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .about_content {
+        padding-top: 10px;
+        padding-bottom: 24px;
+    }
+
+    .about_text {
+        width: 310px;
+        padding-top: 4px;
+    }
+
+    .project {
+        padding-bottom: 40px;
+    }
+
+    .info_center {
+        padding-left: 24px;
+        padding-right: 16px;
+    }
+
+    .info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .skills_text {
+        padding-top: 0px;
+    }
+
+    .sticker {
+        margin-bottom: 4px;
+        padding: 26px 16px;
+    }
+
+    .info_icons {
+        margin-top: 0px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .info_ed {
+        gap: 10px;
+    }
+
+    .contacts_links {
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .my_link {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .whatsapp {
+        width: 36px;
+        height: 36px;
+    }
+
+    .telegram {
+        width: 36px;
+        height: 36px;
+    }
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
 }
