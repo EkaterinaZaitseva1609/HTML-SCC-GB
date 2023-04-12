@@ -27,7 +27,6 @@ a {
 }
 
 .heading {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
     font-size: 50px;
@@ -57,6 +56,13 @@ a {
     line-height: 24px;
     text-transform: uppercase;
     color: #F0F0F0;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+}
+
+.header_link:hover,
+.header_link:focus {
+    border-color: white;
 }
 
 .top {
@@ -71,12 +77,51 @@ a {
 
 }
 
+
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .main_title {
+    -webkit-animation: tracking-in-expand 0.7s linear both;
+    animation: tracking-in-expand 0.7s linear both;
+}
+
+.main_title {
+    font-family: 'Cookie';
     font-style: normal;
     font-weight: 100;
     font-size: 215px;
-    line-height: 260px;
-    color: #1B1B1B;
+    line-height: 238px;
+    color: #ABC3C7;
 }
 
 .second_title {
@@ -95,6 +140,7 @@ a {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 
 }
@@ -161,6 +207,7 @@ a {
     width: 368px;
 }
 
+
 .info_icons {
     font-style: normal;
     font-weight: 700;
@@ -178,6 +225,14 @@ a {
     border-radius: 18px;
     padding: 36px 25px;
     margin-right: 16px;
+
+    border-bottom: 1px solid;
+    transition: .3s;
+}
+
+.sticker:hover,
+.sticker:focus {
+    border-color: white;
 }
 
 .contacts {
@@ -210,7 +265,13 @@ a {
 }
 
 .behance {
-    color: blue;
+    border-bottom: 1px solid;
+    transition: .3s;
+}
+
+.behance:hover,
+.behance:focus {
+    border-color: #ABC3C7;
 }
 
 .footer {
@@ -220,7 +281,29 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 70px;   
+}
+
+.whatsapp {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+    transition: .3s;
+}
+
+.whatsapp:hover,
+.whatsapp:focus {
+    border-color: white;
+}
+
+.telegram {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+    transition: .3s;
+}
+
+.telegram:hover,
+.telegram:focus {
+    border-color: white;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -326,7 +409,7 @@ a {
     .header {
         padding-top: 10px;
         padding-bottom: 10px;
-        gap: 10px;
+        gap: 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -335,7 +418,10 @@ a {
     .header_link {
         font-size: 14px;
         line-height: 17px;
+    }
 
+    .link_disable {
+        display: none;
     }
 
     .top {
@@ -432,6 +518,7 @@ a {
         width: 36px;
         height: 36px;
     }
+
     .footer {
         padding-top: 10px;
         padding-bottom: 10px;
