@@ -165,6 +165,10 @@ a {
     padding-bottom: 54px;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #ABC3C7;;
+}
+
 .info_center {
     padding-left: calc(50% - 445px);
     padding-right: calc(50% - 445px);
