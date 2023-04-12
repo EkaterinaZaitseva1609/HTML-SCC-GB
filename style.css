@@ -359,7 +359,7 @@ a {
     }
 
     .carousel-control-next-icon, .carousel-control-prev-icon {
-        background-color: white ;
+        background-color: transparent;
     }
 
     .text_project {
@@ -479,7 +479,7 @@ a {
     }
 
     .carousel-control-next-icon, .carousel-control-prev-icon {
-        background-color: white ;
+        background-color: transparent;
     }
 
     .info_center {
