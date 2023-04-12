@@ -358,6 +358,10 @@ a {
         padding-bottom: 52px;
     }
 
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        background-color: white ;
+    }
+
     .text_project {
         padding-bottom: 16px;
     }
@@ -472,6 +476,10 @@ a {
 
     .project {
         padding-bottom: 40px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        background-color: white ;
     }
 
     .info_center {
